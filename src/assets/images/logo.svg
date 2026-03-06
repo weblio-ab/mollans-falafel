@@ -1,0 +1,18 @@
+<!-- [PLACEHOLDER: Replace with final logo] -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" role="img" aria-label="Möllans Falafel logotyp">
+  <title>Möllans Falafel</title>
+
+  <!-- Circular falafel icon -->
+  <circle cx="30" cy="30" r="26" fill="#5B7C3A"/>
+  <circle cx="30" cy="30" r="20" fill="#4a6830"/>
+  <!-- Falafel dots -->
+  <circle cx="30" cy="30" r="4" fill="#E8B630"/>
+  <circle cx="22" cy="24" r="2.5" fill="#E8B630" opacity="0.75"/>
+  <circle cx="38" cy="24" r="2.5" fill="#E8B630" opacity="0.75"/>
+  <circle cx="22" cy="36" r="2.5" fill="#E8B630" opacity="0.75"/>
+  <circle cx="38" cy="36" r="2.5" fill="#E8B630" opacity="0.75"/>
+
+  <!-- Brand name text -->
+  <text x="64" y="23" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="700" fill="#5B7C3A">Möllans</text>
+  <text x="64" y="44" font-family="'Inter', Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="0.06em" fill="#C75B39">FALAFEL</text>
+</svg>

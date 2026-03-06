@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "name": "Falafel",
+      "icon": "🧆",
+      "items": [
+        {
+          "name": "Klassisk Falafelrulle",
+          "description": "Nybakad tunnbröd med handgjord falafel, krämig hummus, tabbouleh, picklade grönsaker och generös tahiniås. En riktig klassiker.",
+          "price": "89 kr",
+          "tags": ["vegan"]
+        },
+        {
+          "name": "Falafeltallrik",
+          "description": "Falafel serverad med hemgjord hummus, rökig baba ganoush, fräsch sallad, varmt pitabröd och tahiniås. Perfekt för en lite större aptit.",
+          "price": "109 kr",
+          "tags": ["vegan"]
+        },
+        {
+          "name": "Halloumi & Falafelrulle",
+          "description": "Grillad halloumi och krispig falafel i tunnbröd med hummus, färska grönsaker och vår heta chili-sås. Bästa av två världar.",
+          "price": "99 kr",
+          "tags": ["vegetarian"]
+        },
+        {
+          "name": "Barnens Falafelrulle",
+          "description": "Mildare version med falafel, hummus och grönsaker i ett litet tunnbröd — perfekt för de yngsta gästerna.",
+          "price": "65 kr",
+          "tags": ["vegan"]
+        }
+      ]
+    },
+    {
+      "name": "Tillbehör",
+      "icon": "🥙",
+      "items": [
+        {
+          "name": "Hummus",
+          "description": "Krämig, hemgjord hummus med olivolja, paprika och en nypa sumak. Serveras med varmt pitabröd.",
+          "price": "35 kr",
+          "tags": ["vegan", "glutenfri"]
+        },
+        {
+          "name": "Baba Ganoush",
+          "description": "Rökt aubergine med tahini, citron och vitlök. En rökig och len dipp som förgyller varje måltid.",
+          "price": "35 kr",
+          "tags": ["vegan", "glutenfri"]
+        },
+        {
+          "name": "Pommes frites",
+          "description": "Krispiga pommes kryddade med zatarblend och flingsalt. Oemotståndliga.",
+          "price": "30 kr",
+          "tags": ["vegan", "glutenfri"]
+        },
+        {
+          "name": "Tabbouleh",
+          "description": "Klassisk sallad med persilja, bulgur, tomat, lök och citron. Fräsch och smakrik.",
+          "price": "30 kr",
+          "tags": ["vegan"]
+        }
+      ]
+    },
+    {
+      "name": "Drycker",
+      "icon": "🥤",
+      "items": [
+        {
+          "name": "Ayran",
+          "description": "Traditionell yoghurtdryck — sval, salt och perfekt bredvid en varm falafelrulle.",
+          "price": "25 kr",
+          "tags": []
+        },
+        {
+          "name": "Myntate",
+          "description": "Färskbryggt te med mynta och honung. Serveras varm eller kall.",
+          "price": "30 kr",
+          "tags": ["vegan"]
+        },
+        {
+          "name": "Limonade",
+          "description": "Hemgjord limonade med citron, ingefära och mynta.",
+          "price": "35 kr",
+          "tags": ["vegan"]
+        },
+        {
+          "name": "Vatten",
+          "description": "Mineralvatten, fortfarande eller med kolsyra.",
+          "price": "15 kr",
+          "tags": ["vegan", "glutenfri"]
+        }
+      ]
+    },
+    {
+      "name": "Desserter",
+      "icon": "🍯",
+      "items": [
+        {
+          "name": "Baklava",
+          "description": "Traditionell baklava med valnötter, pistage och honung. Söt avslutning på en god måltid.",
+          "price": "40 kr",
+          "tags": ["vegetarian"]
+        },
+        {
+          "name": "Halva",
+          "description": "Söt sesamhalva med pistage och rosevatten. Klassisk mellanösterndelikatess.",
+          "price": "30 kr",
+          "tags": ["vegan", "glutenfri"]
+        }
+      ]
+    }
+  ]
+}

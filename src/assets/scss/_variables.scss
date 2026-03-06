@@ -1,0 +1,40 @@
+// Bootstrap color overrides
+$primary: #5B7C3A;
+$secondary: #C75B39;
+$light: #F5F0E8;
+$dark: #2C1810;
+$body-bg: #F5F0E8;
+$body-color: #2C1810;
+$accent: #E8B630;
+
+// Custom color map
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "dark": $dark,
+);
+
+// Typography
+$font-family-sans-serif: 'Inter', sans-serif;
+$headings-font-family: 'Playfair Display', serif;
+$font-size-base: 1rem;
+$headings-font-weight: 700;
+$line-height-base: 1.6;
+
+// Border radius
+$border-radius: 0.5rem;
+$border-radius-lg: 1rem;
+$border-radius-pill: 50rem;
+
+// Buttons
+$btn-border-radius: 2rem;
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 2rem;
+$btn-font-weight: 600;
+
+// Navbar
+$navbar-padding-y: 1rem;
+
+// Spacing
+$spacer: 1rem;

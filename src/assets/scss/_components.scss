@@ -1,0 +1,409 @@
+// Custom component styles
+
+// ============================================================
+// Navbar
+// ============================================================
+.app-navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  &.navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none;
+
+    .nav-link,
+    .navbar-brand {
+      color: #fff !important;
+    }
+
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.5);
+
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+    }
+  }
+
+  &.navbar-solid {
+    background-color: #2C1810 !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+
+    .nav-link {
+      color: rgba(255, 255, 255, 0.85) !important;
+
+      &:hover,
+      &.router-link-active {
+        color: #E8B630 !important;
+      }
+    }
+
+    .navbar-brand {
+      color: #fff !important;
+    }
+  }
+}
+
+// ============================================================
+// Hero Section
+// ============================================================
+.hero-section {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #2C1810;
+
+  &.hero-short {
+    min-height: 50vh;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: #3d2418;
+    opacity: 0.6;
+  }
+
+  .hero-bg-color {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(44, 24, 16, 0.85) 0%,
+      rgba(91, 124, 58, 0.6) 100%
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+  }
+}
+
+// ============================================================
+// Menu Card
+// ============================================================
+.menu-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(44, 24, 16, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(44, 24, 16, 0.14);
+  }
+
+  .menu-card-img {
+    height: 180px;
+    background-color: #e0d8cc;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #a09080;
+  }
+
+  .menu-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+  }
+
+  .menu-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #2C1810;
+    margin-bottom: 0.5rem;
+  }
+
+  .menu-card-description {
+    font-size: 0.9rem;
+    color: #6b5a4e;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .menu-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    border-top: 1px solid #f0e8de;
+  }
+
+  .menu-card-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #5B7C3A;
+  }
+
+  .menu-card-tags {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+}
+
+// ============================================================
+// Tag badges
+// ============================================================
+.tag-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  &.tag-vegan {
+    background-color: #d4edda;
+    color: #1d6130;
+  }
+
+  &.tag-vegetarian {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+
+  &.tag-glutenfri {
+    background-color: #cfe2ff;
+    color: #084298;
+  }
+}
+
+// ============================================================
+// Opening Hours
+// ============================================================
+.opening-hours-table {
+  width: 100%;
+
+  td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(44, 24, 16, 0.08);
+
+    &:last-child {
+      text-align: right;
+      font-weight: 600;
+      color: #5B7C3A;
+    }
+  }
+
+  tr.today td {
+    color: #C75B39;
+    font-weight: 700;
+
+    &:last-child {
+      color: #C75B39;
+    }
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+// ============================================================
+// Contact Form
+// ============================================================
+.contact-form {
+  .form-control {
+    border-color: #d9cfc4;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+
+    &:focus {
+      border-color: #5B7C3A;
+      box-shadow: 0 0 0 0.2rem rgba(91, 124, 58, 0.2);
+    }
+  }
+
+  .form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #2C1810;
+  }
+
+  .invalid-feedback {
+    font-size: 0.82rem;
+  }
+}
+
+// ============================================================
+// Footer
+// ============================================================
+.app-footer {
+  background-color: #2C1810;
+  color: rgba(255, 255, 255, 0.75);
+
+  a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #E8B630;
+    }
+  }
+
+  .footer-heading {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-divider {
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .footer-bottom {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.45);
+  }
+}
+
+// ============================================================
+// Section heading decorative
+// ============================================================
+.section-heading-wrapper {
+  margin-bottom: 2.5rem;
+
+  .section-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #C75B39;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #2C1810;
+    margin-bottom: 1rem;
+  }
+
+  .section-divider {
+    width: 3.5rem;
+    height: 3px;
+    background: linear-gradient(to right, #5B7C3A, #C75B39);
+    border-radius: 2px;
+    margin: 0;
+
+    &.mx-auto {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+
+  .section-subtitle {
+    color: #6b5a4e;
+    max-width: 600px;
+    line-height: 1.7;
+  }
+}
+
+// ============================================================
+// CTA Section
+// ============================================================
+.cta-section {
+  background: linear-gradient(135deg, #5B7C3A 0%, #3d5529 100%);
+  color: #fff;
+  border-radius: 1.5rem;
+
+  .btn-cta {
+    background-color: #E8B630;
+    color: #2C1810;
+    font-weight: 700;
+    border: none;
+
+    &:hover {
+      background-color: #f0c344;
+      color: #2C1810;
+    }
+  }
+}
+
+// ============================================================
+// Map placeholder
+// ============================================================
+.map-placeholder {
+  width: 100%;
+  height: 380px;
+  background-color: #d9d0c5;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+// ============================================================
+// About gallery placeholder
+// ============================================================
+.gallery-placeholder {
+  height: 200px;
+  background-color: #d9d0c5;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #a09080;
+}
+
+// ============================================================
+// Social icons
+// ============================================================
+.social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.75);
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: #E8B630;
+    color: #2C1810;
+  }
+}
+
+// ============================================================
+// General utilities
+// ============================================================
+.bg-warm {
+  background-color: #F5F0E8;
+}
+
+.section-py {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @media (max-width: 768px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.rounded-xl {
+  border-radius: 1rem !important;
+}
